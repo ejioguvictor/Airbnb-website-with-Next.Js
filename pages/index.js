@@ -1,11 +1,11 @@
-// import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Header from '../components/Header'
 import Banner from '../components/Banner'
 import SmallCard from '../components/SmallCard'
 import Card from '../components/Card'
 import LargeCard from '../components/LargeCard'
+import Footer from "../components/Footer"
+
 
 export default function Home ({exploreData, cardsData}) {
   return (
@@ -44,8 +44,9 @@ export default function Home ({exploreData, cardsData}) {
         description="Wishlists curated by Airbnb."
         buttonText="Get Inspired"
          />
-
       </main>
+
+      <Footer />
     </div>
   )
 }

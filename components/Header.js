@@ -18,11 +18,11 @@ const Header = () => {
         <input 
         className='pl-5 bg-transparent outline-none flex-grow text-sm text-gray-600 placeholder-gray-400'
         type="text" 
-        placeholder='Search here ...'/>
+        placeholder='Search here'/>
         <SearchIcon className='hidden md:inline-flex h-8 bg-red-400 text-white p-2 rounded-full cursor-pointer md:mx-2'/>
       </div>
       <div className="flex items-center justify-end space-x-4 text-gray-500">
-        <p className='hidden md:inline cursor-pointer'>Become a host</p>
+        <p className='hidden md:inline md:ml-3 cursor-pointer'>Become a host</p>
         <GlobeAltIcon className='h-6 cursor-pointer'/>
         <div className='flex space-x-2 items-center border-2 p-2 rounded-full'>
           <MenuIcon className='h-6'/>
